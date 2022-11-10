@@ -1,11 +1,27 @@
 Package: mailchimpR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Get Mailchimp Data via the 'Windsor.ai' API
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: c(
+    person("Pablo", "Sanchez", email = "pablosama@outlook.es", role = c("cre","aut")),
+    person("Windsor.ai", email = "admin@windsor.ai", role = "cph"))
+Description: Collect  your data on digital marketing campaigns from Mailchimp using the 'Windsor.ai' API <https://windsor.ai/api-fields/>.
+License: GPL-3
+URL: https://windsor.ai/
+Depends:
+    R (>= 3.5.0)
+Imports:
+    jsonlite (>= 1.7.2)
+Suggests:
+    knitr,
+    rmarkdown,
+    dplyr,
+    ggplot2,
+    tidyr, 
+    curl
+VignetteBuilder:
+    knitr
 Encoding: UTF-8
+Language: en-US
 LazyData: true
+RoxygenNote: 7.2.1
